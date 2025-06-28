@@ -12,21 +12,6 @@ Cosine similarity computation
 
 Heatmap visualization of similarity scores
 
-Let me know if you'd like help customizing it further with badges, installation steps, or a live demo link.
-
-
-
-
-
-
-
-
-You said:
-add all feature in detail 
-
-
-ChatGPT said:
-Absolutely! Here's a complete and well-structured README.md section that includes all project features in detail, tailored to your IEEE-published research:
 
 📄 IEEE Research Publication
 This project has been published in IEEE Xplore as part of the
@@ -40,6 +25,7 @@ Paper Title: An Approach for Measuring Unstructured Text Document Similarity Usi
 🧠 Project Overview
 This project introduces a hybrid approach to measuring semantic similarity between unstructured PDF documents by combining the strengths of Latent Dirichlet Allocation (LDA) and BERT (Bidirectional Encoder Representations from Transformers). It improves upon traditional text similarity methods by capturing both topical and contextual information.
 
+
 🚀 Features
 🔍 1. Text Preprocessing
 Tokenization and lowercasing of text
@@ -52,6 +38,7 @@ Lemmatization using NLTK
 
 Outputs clean, uniform text ready for topic modeling and embedding
 
+
 📚 2. Topic Modeling with LDA
 Uses the Gensim library to build an LDA model from preprocessed text
 
@@ -61,12 +48,14 @@ Represents documents as topic vectors
 
 Enables coarse-level similarity understanding
 
+
 🧠 3. BERT Embedding Generation
 Uses Hugging Face Transformers to extract BERT embeddings
 
 Focuses on [CLS] token representation for capturing the entire document meaning
 
 Converts text into high-dimensional vectors with deep semantic understanding
+
 
 📈 4. Similarity Score Calculation
 Calculates cosine similarity between document pairs using:
@@ -85,12 +74,14 @@ Combines both similarity scores into a weighted average:
 
 Customizable based on document sections
 
+
 🔥 5. Visualization Tools
 Generates a heatmap (square matrix) using Seaborn to show document-to-document similarity scores
 
 Provides a circle graph for visual comparison and clustering insights
 
 Color-coded similarity representation (e.g., 80% = high similarity, 30% = low similarity)
+
 
 🧪 6. Evaluation and Testing
 Tested on PDF datasets from multiple domains:
@@ -104,6 +95,7 @@ News articles
 Demonstrated robust performance on paraphrased or semantically reworded documents
 
 Outperforms traditional methods (TF-IDF, Jaccard, plain Cosine Similarity)
+
 
 🛠 Tech Stack
 Python 🐍
@@ -119,6 +111,7 @@ NumPy / SciPy
 Matplotlib & Seaborn
 
 PyMuPDF or PDFMiner (for PDF text extraction)
+
 
 💡 Potential Applications
 Plagiarism Detection
